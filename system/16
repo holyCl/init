@@ -1,0 +1,1 @@
+command 'sudo crontab -l'

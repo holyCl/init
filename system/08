@@ -1,0 +1,5 @@
+command: ssh-keygen
+
+/home/user/.ssh/id_rsa
+
+cat id_rsa.pub >> .ssh/authorized_keys

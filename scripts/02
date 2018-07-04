@@ -1,0 +1,3 @@
+echo "apt-get -y update && apt-get -y upgrade" > test.sh
+echo "0 4 * * 0 sh test.sh > sudo /var/log/update_script.log" > for_cron
+crontab for_cron
